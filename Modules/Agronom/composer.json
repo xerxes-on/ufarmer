@@ -1,0 +1,22 @@
+{
+    "name": "modules/agronom",
+    "description": "Agronom module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Agronom\\": "src/",
+            "Modules\\Agronom\\Database\\Factories\\": "database/factories/",
+            "Modules\\Agronom\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Agronom\\Providers\\AgronomServiceProvider"
+            ]
+        }
+    }
+}

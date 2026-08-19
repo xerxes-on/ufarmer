@@ -1,0 +1,29 @@
+{
+    "name": "makhweb/billing-client",
+    "description": "Billing client for Olcha billing system",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Makhweb\\BillingClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eldorbek",
+            "email": "email@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Makhweb\\BillingClient\\BillingClientServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2|^8.3|^8.4",
+        "sajya/client": "^1.1",
+        "spatie/crypto": "^2.0",
+        "illuminate/contracts": "^11.0|^12.0"
+    }
+}

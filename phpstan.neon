@@ -1,0 +1,28 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    paths:
+        - app
+        - Modules
+        - packages
+
+    level: 3
+
+    ignoreErrors:
+        # LengthAwarePaginator concrete methods not in interface
+        - '#Call to an undefined method Illuminate\\Contracts\\Pagination\\LengthAwarePaginator::getCollection\(\)#'
+        - '#Call to an undefined method Illuminate\\Contracts\\Pagination\\LengthAwarePaginator::setCollection\(\)#'
+        - '#Call to an undefined method Illuminate\\Contracts\\Pagination\\LengthAwarePaginator::toArray\(\)#'
+        # Model scopes called on BelongsToMany relationships
+        - '#Call to an undefined method Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany::active\(\)#'
+
+    excludePaths:
+        - Modules/*/database/seeders/*
+        - Modules/*/database/factories/*
+        - Modules/*/src/Providers/*
+        - Modules/*/Providers/*
+        - packages/*/database/*
+        - packages/*/tests/*
+        - tests/*
+        - Modules/*/Tests/*

@@ -1,0 +1,22 @@
+{
+    "name": "modules/agrocalendar",
+    "description": "AgroCalendar module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AgroCalendar\\": "src/",
+            "Modules\\AgroCalendar\\Database\\Factories\\": "database/factories/",
+            "Modules\\AgroCalendar\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AgroCalendar\\Providers\\AgroCalendarServiceProvider"
+            ]
+        }
+    }
+}

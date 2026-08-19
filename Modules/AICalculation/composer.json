@@ -1,0 +1,22 @@
+{
+    "name": "modules/aicalculation",
+    "description": "AICalculation module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AICalculation\\": "src/",
+            "Modules\\AICalculation\\Database\\Factories\\": "database/factories/",
+            "Modules\\AICalculation\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AICalculation\\Providers\\AICalculationServiceProvider"
+            ]
+        }
+    }
+}

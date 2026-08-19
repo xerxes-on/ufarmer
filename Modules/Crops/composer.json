@@ -1,0 +1,22 @@
+{
+    "name": "modules/crops",
+    "description": "Crops module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Crops\\": "src/",
+            "Modules\\Crops\\Database\\Factories\\": "database/factories/",
+            "Modules\\Crops\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Crops\\Providers\\CropsServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "modules/general",
+    "description": "General module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\General\\": "src/",
+            "Modules\\General\\Database\\Factories\\": "database/factories/",
+            "Modules\\General\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\General\\Providers\\GeneralServiceProvider"
+            ]
+        }
+    }
+}

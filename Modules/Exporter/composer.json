@@ -1,0 +1,22 @@
+{
+    "name": "modules/exporter",
+    "description": "Exporter module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Exporter\\": "src/",
+            "Modules\\Exporter\\Database\\Factories\\": "database/factories/",
+            "Modules\\Exporter\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Exporter\\Providers\\ExporterServiceProvider"
+            ]
+        }
+    }
+}

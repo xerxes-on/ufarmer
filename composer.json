@@ -1,0 +1,133 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "The skeleton application for the Laravel framework.",
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/ufarm/premium"
+        },
+        {
+            "type": "composer",
+            "url": "https://pricore.celion.io/celion/packages.json"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "bezhansalleh/filament-language-switch": "*",
+        "bezhansalleh/filament-shield": "^3.2",
+        "filament/filament": "^3.2",
+        "filament/spatie-laravel-media-library-plugin": "^3.2",
+        "laravel/framework": "^12.0",
+        "laravel/socialite": "^5.26",
+        "laravel/telescope": "^5.11",
+        "laravel/tinker": "^2.10.1",
+        "league/flysystem-aws-s3-v3": "^3.29",
+        "musonza/chat": "^6.5",
+        "sentry/sentry-laravel": "^4.26",
+        "spatie/laravel-medialibrary": "^11.15",
+        "spatie/laravel-permission": "^6.0",
+        "spatie/laravel-settings": "^3.1",
+        "spatie/laravel-translatable": "^6.11",
+        "thecoder/laravel-monolog-telegram": "*",
+        "ufarm/premium": "*",
+        "xerxes/authbridge": "^3.0",
+        "xerxes/laravel-rabbitmq-communication": "^4.0"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.23",
+        "laravel/pint": "^1.24",
+        "laravel/sail": "^1.41",
+        "mockery/mockery": "^1.6",
+        "nunomaduro/collision": "^8.6",
+        "phpunit/phpunit": "^11.5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/",
+            "Modules\\AgroCalculator\\": "Modules/AgroCalculator/src/",
+            "Modules\\AgroCalendar\\": "Modules/AgroCalendar/src/",
+            "Modules\\AgroPrices\\": "Modules/AgroPrices/src/",
+            "Modules\\Agronom\\": "Modules/Agronom/src/",
+            "Modules\\AICalculation\\": "Modules/AICalculation/src/",
+            "Modules\\Analysis\\": "Modules/analysis/src/",
+            "Modules\\Billing\\": "Modules/Billing/src/",
+            "Modules\\Core\\": "Modules/Core/src/",
+            "Modules\\Crops\\": "Modules/Crops/src/",
+            "Modules\\Exporter\\": "Modules/Exporter/src/",
+            "Modules\\General\\": "Modules/General/src/",
+            "Modules\\Harvest\\": "Modules/Harvest/src/",
+            "Modules\\JobsServices\\": "Modules/JobsServices/src/",
+            "Modules\\PlantScanner\\": "Modules/PlantScanner/src/",
+            "Modules\\Predictions\\": "Modules/Predictions/src/",
+            "Modules\\Uzgidromet\\": "Modules/Uzgidromet/src/",
+            "Modules\\Weather\\": "Modules/Weather/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "setup": [
+            "composer install",
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "@php artisan key:generate",
+            "@php artisan migrate --force",
+            "npm install",
+            "npm run build"
+        ],
+        "dev": [
+            "Composer\\Config::disableProcessTimeout",
+            "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"npm run dev\" --names=server,queue,vite --kill-others"
+        ],
+        "test": [
+            "@php artisan config:clear --ansi",
+            "@php artisan test"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi",
+            "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+            "@php artisan migrate --graceful --ansi"
+        ],
+        "pre-package-uninstall": [
+            "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        },
+        "secure-http": false
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

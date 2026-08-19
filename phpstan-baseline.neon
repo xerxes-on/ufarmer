@@ -1,0 +1,2239 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Class Modules\\AICalculation\\Models\\AICalculationRequest not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/AICalculation/src/Filament/Resources/AICalculationRequestResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/AgroCalculator/src/Filament/Pages/RunAgroCalculator.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Filament\\Pages\\RunAgroCalculator\:\:\$form\.$#'
+			identifier: property.notFound
+			count: 7
+			path: Modules/AgroCalculator/src/Filament/Pages/RunAgroCalculator.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$crop_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Filament/Pages/RunAgroCalculator.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$valid_from\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Filament/Pages/RunAgroCalculator.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$valid_to\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Filament/Pages/RunAgroCalculator.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$version\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/AgroCalculator/src/Filament/Pages/RunAgroCalculator.php
+
+		-
+			message: '#^PHPDoc tag @param references unknown parameter\: \$defaults$#'
+			identifier: parameter.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Filament/Pages/RunAgroCalculator.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CalculationResultResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$context\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CalculationResultResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$severity\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CalculationResultResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CalculatorRun\:\:\$area_crop_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CalculationResultResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CalculatorRun\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CalculationResultResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CalculatorRun\:\:\$potential_yield_t_ha\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CalculationResultResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CalculatorRun\:\:\$risk_level\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CalculationResultResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\ScoringRun\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CalculationResultResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\ScoringRun\:\:\$grade\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CalculationResultResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\ScoringRun\:\:\$outputs\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CalculationResultResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\ScoringRun\:\:\$score\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CalculationResultResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$crop_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CropParameterSetResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$meta\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CropParameterSetResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$params\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CropParameterSetResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$valid_from\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CropParameterSetResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$valid_to\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CropParameterSetResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$version\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Http/Resources/CropParameterSetResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$version\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Jobs/RunCalculatorJob.php
+
+		-
+			message: '#^Undefined variable\: \$pressureDefaults$#'
+			identifier: variable.undefined
+			count: 1
+			path: Modules/AgroCalculator/src/Services/CalculatorEngine.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$params\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Services/ParameterResolver.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\PlantingParameterOverride\:\:\$params\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Services/ParameterResolver.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\RecommendationRule\:\:\$code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Services/RecommendationEngine.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\RecommendationRule\:\:\$conditions\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Services/RecommendationEngine.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\RecommendationRule\:\:\$recommendations\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Services/RecommendationEngine.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CalculatorRun\:\:\$area_crop_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Services/ScoringEngine.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CalculatorRun\:\:\$inputs\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Services/ScoringEngine.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\ScoringModel\:\:\$spec\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/AgroCalculator/src/Services/ScoringEngine.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\ScoringModel\:\:\$version\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Services/ScoringEngine.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\ScoringThreshold\:\:\$label\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Services/ScoringEngine.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\ScoringThreshold\:\:\$max_value\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Services/ScoringEngine.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\ScoringThreshold\:\:\$min_value\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/src/Services/ScoringEngine.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroCalculator\\Models\\CropParameterSet\:\:\$params\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroCalculator/tests/Feature/RunCalculatorTest.php
+
+		-
+			message: '#^Call to an undefined static method Modules\\Core\\Models\\User\:\:factory\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 2
+			path: Modules/AgroCalculator/tests/Feature/RunCalculatorTest.php
+
+		-
+			message: '#^Function expect not found\.$#'
+			identifier: function.notFound
+			count: 2
+			path: Modules/AgroCalculator/tests/Feature/RunCalculatorTest.php
+
+		-
+			message: '#^Function test not found\.$#'
+			identifier: function.notFound
+			count: 2
+			path: Modules/AgroCalculator/tests/Feature/RunCalculatorTest.php
+
+		-
+			message: '#^Undefined variable\: \$this$#'
+			identifier: variable.undefined
+			count: 2
+			path: Modules/AgroCalculator/tests/Feature/RunCalculatorTest.php
+
+		-
+			message: '#^Function uses not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: Modules/AgroCalculator/tests/Pest.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$slug\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroPrices/src/Http/Resources/DailyPriceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroPrices\\Models\\DailyPrice\:\:\$price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroPrices/src/Http/Resources/DailyPriceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroPrices\\Models\\DailyPrice\:\:\$product_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroPrices/src/Http/Resources/DailyPriceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroPrices\\Models\\DailyPrice\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroPrices/src/Http/Resources/DailyPriceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\AgroPrices\\Models\\DailyPrice\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/AgroPrices/src/Models/DailyPrice.php
+
+		-
+			message: '#^Cannot access property \$user on Illuminate\\Database\\Eloquent\\Model\|int\|string\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: Modules/Agronom/src/Filament/Resources/AgronomDetailResource/Pages/EditAgronomDetail.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:getMediaModel\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Modules/Agronom/src/Models/AgronomDetail.php
+
+		-
+			message: '#^Method Modules\\Agronom\\Models\\AgronomDetail\:\:media\(\) should return App\\Support\\PostgresMorphMany\<Spatie\\MediaLibrary\\MediaCollections\\Models\\Media, \$this\(Modules\\Agronom\\Models\\AgronomDetail\)\> but returns App\\Support\\PostgresMorphMany\<Illuminate\\Database\\Eloquent\\Model, Illuminate\\Database\\Eloquent\\Model\>\.$#'
+			identifier: return.type
+			count: 1
+			path: Modules/Agronom/src/Models/AgronomDetail.php
+
+		-
+			message: '#^PHPDoc tag @var with type Illuminate\\Database\\Eloquent\\Model is not subtype of native type \$this\(Modules\\Agronom\\Models\\AgronomDetail\)\.$#'
+			identifier: varTag.nativeType
+			count: 1
+			path: Modules/Agronom/src/Models/AgronomDetail.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\PaidService\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Filament/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Builder\:\:withTrashed\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Modules/Core/src/Filament/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\Area\:\:\$area\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Controllers/Api/AreaCropController.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\AreaCrop\:\:\$active\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Controllers/Api/AreaCropController.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\PaidService\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Controllers/Api/PaidServiceController.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$applicable_roles\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$config\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$currency\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$deleted_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$is_paid\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$slug\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$valid_from\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Http\\Resources\\PaidServiceResource\:\:\$valid_until\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Http/Resources/PaidServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\AreaCrop\:\:\$active\.$#'
+			identifier: property.notFound
+			count: 5
+			path: Modules/Core/src/Models/AreaCrop.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\AreaCrop\:\:\$harvested_at\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/Core/src/Models/AreaCrop.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\AreaCrop\:\:\$notes\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Models/AreaCrop.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\AreaCrop\:\:\$yield_amount\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Models/AreaCrop.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\AreaCrop\:\:\$yield_unit\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Models/AreaCrop.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\UserDetail\:\:\$image\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Models/UserDetail.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\UserDetail\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Models/UserDetail.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:getMediaModel\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Modules/Core/src/Models/UserDetail.php
+
+		-
+			message: '#^Method Modules\\Core\\Models\\UserDetail\:\:media\(\) should return App\\Support\\PostgresMorphMany\<Spatie\\MediaLibrary\\MediaCollections\\Models\\Media, \$this\(Modules\\Core\\Models\\UserDetail\)\> but returns App\\Support\\PostgresMorphMany\<Illuminate\\Database\\Eloquent\\Model, Illuminate\\Database\\Eloquent\\Model\>\.$#'
+			identifier: return.type
+			count: 1
+			path: Modules/Core/src/Models/UserDetail.php
+
+		-
+			message: '#^PHPDoc tag @var with type Illuminate\\Database\\Eloquent\\Model is not subtype of native type \$this\(Modules\\Core\\Models\\UserDetail\)\.$#'
+			identifier: varTag.nativeType
+			count: 1
+			path: Modules/Core/src/Models/UserDetail.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\Area\:\:\$area\.$#'
+			identifier: property.notFound
+			count: 3
+			path: Modules/Core/src/Services/AreaCropService.php
+
+		-
+			message: '#^Method Modules\\Core\\Services\\AreaCropService\:\:getAttachedCrop\(\) should return Modules\\Crops\\Models\\Crop but returns \(Illuminate\\Database\\Eloquent\\Model&object\{pivot\: Illuminate\\Database\\Eloquent\\Relations\\Pivot\}\)\|null\.$#'
+			identifier: return.type
+			count: 1
+			path: Modules/Core/src/Services/AreaCropService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\Area\:\:\$area\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Services/AreaService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\Area\:\:\$coordinates\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/Core/src/Services/AreaService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\Area\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/Core/src/Services/AreaService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\Area\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/Core/src/Services/AreaService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\Region\:\:\$is_active\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Core/src/Services/RegionService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\User\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 3
+			path: Modules/Core/src/Services/UserDetailService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\User\:\:\$phone\.$#'
+			identifier: property.notFound
+			count: 3
+			path: Modules/Core/src/Services/UserDetailService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\UserDetail\:\:\$image\.$#'
+			identifier: property.notFound
+			count: 3
+			path: Modules/Core/src/Services/UserDetailService.php
+
+		-
+			message: '#^Method Modules\\Core\\Services\\UserDetailService\:\:ensureUserDetailExists\(\) should return Modules\\Core\\Models\\UserDetail but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: Modules/Core/src/Services/UserDetailService.php
+
+		-
+			message: '#^Method Modules\\Core\\Services\\UserDetailService\:\:getOrCreateDetail\(\) should return Modules\\Core\\Models\\UserDetail but returns Illuminate\\Database\\Eloquent\\Model\.$#'
+			identifier: return.type
+			count: 1
+			path: Modules/Core/src/Services/UserDetailService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$duration_days\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Crops/src/Models/Crop.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Crops/src/Models/Crop.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$metadata\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Crops/src/Models/Crop.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$tasks\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Crops/src/Models/Crop.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Crops\\Models\\Crop\:\:\$recommended_temp_max\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Crops/src/Models/Crop.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Crops\\Models\\Crop\:\:\$recommended_temp_min\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Crops/src/Models/Crop.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:getMediaModel\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Modules/Crops/src/Models/Crop.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:getTranslations\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: Modules/Crops/src/Models/Crop.php
+
+		-
+			message: '#^Method Modules\\Crops\\Models\\Crop\:\:media\(\) should return App\\Support\\PostgresMorphMany\<Spatie\\MediaLibrary\\MediaCollections\\Models\\Media, \$this\(Modules\\Crops\\Models\\Crop\)\> but returns App\\Support\\PostgresMorphMany\<Illuminate\\Database\\Eloquent\\Model, Illuminate\\Database\\Eloquent\\Model\>\.$#'
+			identifier: return.type
+			count: 1
+			path: Modules/Crops/src/Models/Crop.php
+
+		-
+			message: '#^PHPDoc tag @var with type Illuminate\\Database\\Eloquent\\Model is not subtype of native type \$this\(Modules\\Crops\\Models\\Crop\)\.$#'
+			identifier: varTag.nativeType
+			count: 1
+			path: Modules/Crops/src/Models/Crop.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:getMediaModel\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Modules/Crops/src/Models/ParentCrop.php
+
+		-
+			message: '#^Method Modules\\Crops\\Models\\ParentCrop\:\:media\(\) should return App\\Support\\PostgresMorphMany\<Spatie\\MediaLibrary\\MediaCollections\\Models\\Media, \$this\(Modules\\Crops\\Models\\ParentCrop\)\> but returns App\\Support\\PostgresMorphMany\<Illuminate\\Database\\Eloquent\\Model, Illuminate\\Database\\Eloquent\\Model\>\.$#'
+			identifier: return.type
+			count: 1
+			path: Modules/Crops/src/Models/ParentCrop.php
+
+		-
+			message: '#^PHPDoc tag @var with type Illuminate\\Database\\Eloquent\\Model is not subtype of native type \$this\(Modules\\Crops\\Models\\ParentCrop\)\.$#'
+			identifier: varTag.nativeType
+			count: 1
+			path: Modules/Crops/src/Models/ParentCrop.php
+
+		-
+			message: '#^Class Modules\\Crops\\Models\\Parameter not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/Crops/src/Models/Recommendation.php
+
+		-
+			message: '#^Class Modules\\Chat\\Models\\Conversation not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/Crops/src/Models/Tag.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\Area\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Crops/src/Services/CropService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Core\\Models\\Area\:\:\$pivot\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Crops/src/Services/CropService.php
+
+		-
+			message: '#^Call to method run\(\) on an unknown class Database\\Seeders\\CropsSeeder\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/Crops/src/Services/SeederService.php
+
+		-
+			message: '#^Call to method run\(\) on an unknown class Database\\Seeders\\RegionsAndCitiesSeeder\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/Crops/src/Services/SeederService.php
+
+		-
+			message: '#^Instantiated class Database\\Seeders\\CropsSeeder not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/Crops/src/Services/SeederService.php
+
+		-
+			message: '#^Instantiated class Database\\Seeders\\RegionsAndCitiesSeeder not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/Crops/src/Services/SeederService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model&object\{pivot\: Illuminate\\Database\\Eloquent\\Relations\\Pivot\}\:\:\$image\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Crops/src/Services/UserCropPriceService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model&object\{pivot\: Illuminate\\Database\\Eloquent\\Relations\\Pivot\}\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/Crops/src/Services/UserCropPriceService.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model&object\{pivot\: Illuminate\\Database\\Eloquent\\Relations\\Pivot\}\:\:getTranslation\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Modules/Crops/src/Services/UserCropPriceService.php
+
+		-
+			message: '#^Unsafe call to private method Modules\\General\\Filament\\Resources\\ArticleResource\:\:availableLocales\(\) through static\:\:\.$#'
+			identifier: staticClassAccess.privateMethod
+			count: 3
+			path: Modules/General/src/Filament/Resources/ArticleResource.php
+
+		-
+			message: '#^Unsafe call to private method Modules\\General\\Filament\\Resources\\ArticleResource\:\:contentTabs\(\) through static\:\:\.$#'
+			identifier: staticClassAccess.privateMethod
+			count: 1
+			path: Modules/General/src/Filament/Resources/ArticleResource.php
+
+		-
+			message: '#^Unsafe call to private method Modules\\General\\Filament\\Resources\\ArticleResource\:\:cropOptions\(\) through static\:\:\.$#'
+			identifier: staticClassAccess.privateMethod
+			count: 2
+			path: Modules/General/src/Filament/Resources/ArticleResource.php
+
+		-
+			message: '#^Unsafe call to private method Modules\\General\\Filament\\Resources\\ArticleResource\:\:formatCrops\(\) through static\:\:\.$#'
+			identifier: staticClassAccess.privateMethod
+			count: 1
+			path: Modules/General/src/Filament/Resources/ArticleResource.php
+
+		-
+			message: '#^Unsafe call to private method Modules\\General\\Filament\\Resources\\ArticleResource\:\:localeLabel\(\) through static\:\:\.$#'
+			identifier: staticClassAccess.privateMethod
+			count: 1
+			path: Modules/General/src/Filament/Resources/ArticleResource.php
+
+		-
+			message: '#^Unsafe call to private method Modules\\General\\Filament\\Resources\\ArticleResource\:\:primaryLocale\(\) through static\:\:\.$#'
+			identifier: staticClassAccess.privateMethod
+			count: 1
+			path: Modules/General/src/Filament/Resources/ArticleResource.php
+
+		-
+			message: '#^Unsafe call to private method Modules\\General\\Filament\\Resources\\ArticleResource\:\:titleColumns\(\) through static\:\:\.$#'
+			identifier: staticClassAccess.privateMethod
+			count: 1
+			path: Modules/General/src/Filament/Resources/ArticleResource.php
+
+		-
+			message: '#^PHPDoc tag @var for variable \$farmer contains unknown class Xerxes\\AuthBridge\\Models\\Farmer\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/General/src/Http/Controllers/ArticleController.php
+
+		-
+			message: '#^PHPDoc tag @var for variable \$farmer contains unknown class Xerxes\\AuthBridge\\Models\\Farmer\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/General/src/Http/Controllers/ProductStatController.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Models\\ProductStat\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Http/Resources/ProductStatResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Models\\ProductStat\:\:\$data\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Http/Resources/ProductStatResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Models\\ProductStat\:\:\$date\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Http/Resources/ProductStatResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Models\\ProductStat\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Http/Resources/ProductStatResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Models\\TermsDocument\:\:\$locale\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Models/TermsDocument.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Models\\TermsDocument\:\:\$type\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Models/TermsDocument.php
+
+		-
+			message: '#^Call to method crops\(\) on an unknown class Xerxes\\AuthBridge\\Models\\Farmer\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/General/src/Services/ArticleService.php
+
+		-
+			message: '#^Class Xerxes\\AuthBridge\\Models\\Farmer not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/General/src/Services/ArticleService.php
+
+		-
+			message: '#^Parameter \$farmer of method Modules\\General\\Services\\ArticleService\:\:getArticlesForFarmer\(\) has invalid type Xerxes\\AuthBridge\\Models\\Farmer\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/General/src/Services/ArticleService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\Crops\\Models\\Crop\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Services/CropPriceHistoryService.php
+
+		-
+			message: '#^Call to method crops\(\) on an unknown class Xerxes\\AuthBridge\\Models\\Farmer\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/General/src/Services/ProductStatService.php
+
+		-
+			message: '#^Parameter \$farmer of method Modules\\General\\Services\\ProductStatService\:\:getCropHistory\(\) has invalid type Xerxes\\AuthBridge\\Models\\Farmer\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/General/src/Services/ProductStatService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$attachment\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$body_oz\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$body_ru\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$body_uz\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$crop_ids\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$icon\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$preview_image\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$preview_oz\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$preview_ru\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$preview_uz\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$tags\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$title_oz\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$title_ru\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$title_uz\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\ArticleResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/ArticleResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\CropResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/CropResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\CropResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/CropResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\CropResource\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/CropResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\CropResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/CropResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\StoryResource\:\:\$attachment\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/StoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\StoryResource\:\:\$button\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/General/src/Transformers/StoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\StoryResource\:\:\$button_action\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/StoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\StoryResource\:\:\$button_text\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/StoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\StoryResource\:\:\$color\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/StoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\StoryResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/StoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\StoryResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/StoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\StoryResource\:\:\$is_active\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/StoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\StoryResource\:\:\$pre_attachment\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/StoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\General\\Transformers\\StoryResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/General/src/Transformers/StoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\ServiceCategory\:\:\$icon\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Controllers/Admin/ServiceCategoryController.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\ServiceCategory\:\:\$is_active\.$#'
+			identifier: property.notFound
+			count: 3
+			path: Modules/JobsServices/src/Http/Controllers/Admin/ServiceCategoryController.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\ServiceCategory\:\:\$sort_order\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Controllers/Admin/ServiceCategoryController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Collection\<int, Modules\\JobsServices\\Models\\Job\>\|Modules\\JobsServices\\Models\\Job\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Controllers/Api/JobApplicationController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Collection\<int, Modules\\JobsServices\\Models\\Job\>\|Modules\\JobsServices\\Models\\Job\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Controllers/Api/JobApplicationController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 3
+			path: Modules/JobsServices/src/Http/Controllers/Api/JobApplicationController.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\JobApplication\:\:\$applicant_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/JobsServices/src/Http/Controllers/Api/JobApplicationController.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\JobApplication\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 3
+			path: Modules/JobsServices/src/Http/Controllers/Api/JobApplicationController.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Job\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Controllers/Api/JobController.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Service\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Controllers/Api/ServiceController.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\CategoryResource\:\:\$description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/CategoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\CategoryResource\:\:\$icon\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/CategoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\CategoryResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/CategoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\CategoryResource\:\:\$jobs_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/CategoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\CategoryResource\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/CategoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\CategoryResource\:\:\$services_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/CategoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\CategoryResource\:\:\$slug\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/CategoryResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$applicant\.$#'
+			identifier: property.notFound
+			count: 4
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$applicant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$currency\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$estimated_duration\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$job\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$job_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$message\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$proposed_price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$proposed_start_time\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$rejection_reason\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$responded_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Call to an undefined method Modules\\JobsServices\\Http\\Resources\\JobApplicationResource\:\:relationLoaded\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: Modules/JobsServices/src/Http/Resources/JobApplicationResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$address\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$applications_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$body\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$category\.$#'
+			identifier: property.notFound
+			count: 4
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$city\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$currency\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$deadline\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$display_price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$distance\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$executor\.$#'
+			identifier: property.notFound
+			count: 4
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$executor_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$finished_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$fixed_time\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$latitude\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$longitude\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$price_fixed\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$price_max\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$price_min\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$price_mode\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$property_size\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$property_unit\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$region\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$started_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$timing_type\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$user\.$#'
+			identifier: property.notFound
+			count: 4
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:\$views_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Call to an undefined method Modules\\JobsServices\\Http\\Resources\\JobDetailResource\:\:applications\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$address\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$applications_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$category\.$#'
+			identifier: property.notFound
+			count: 4
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$city\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$currency\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$deadline\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$display_price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$distance\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$fixed_time\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$latitude\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$longitude\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$price_fixed\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$price_max\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$price_min\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$price_mode\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$property_size\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$property_unit\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$region\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$timing_type\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$user\.$#'
+			identifier: property.notFound
+			count: 3
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\JobResource\:\:\$views_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/JobResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\MediaResource\:\:\$file_name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/MediaResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\MediaResource\:\:\$file_size\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/MediaResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\MediaResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/MediaResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\MediaResource\:\:\$mime_type\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/MediaResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\MediaResource\:\:\$sort_order\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/MediaResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\MediaResource\:\:\$type\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/MediaResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\MediaResource\:\:\$url\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/MediaResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$address\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$availability\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$body\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$category\.$#'
+			identifier: property.notFound
+			count: 4
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$city\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$currency\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$display_price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$distance\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$latitude\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$longitude\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$price_unit\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$rating\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$region\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$requests_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$reviews_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$service_radius\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$timing_description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$user\.$#'
+			identifier: property.notFound
+			count: 4
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceDetailResource\:\:\$views_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceDetailResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$address\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$category\.$#'
+			identifier: property.notFound
+			count: 4
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$city\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$currency\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$display_price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$distance\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$latitude\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$longitude\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$price_unit\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$rating\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$region\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$requests_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$reviews_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$service_radius\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$timing_description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$user\.$#'
+			identifier: property.notFound
+			count: 3
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Http\\Resources\\ServiceResource\:\:\$views_count\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Http/Resources/ServiceResource.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Job\:\:\$currency\.$#'
+			identifier: property.notFound
+			count: 3
+			path: Modules/JobsServices/src/Models/Job.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Job\:\:\$price_fixed\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/Job.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Job\:\:\$price_max\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/Job.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Job\:\:\$price_min\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/JobsServices/src/Models/Job.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Job\:\:\$price_mode\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/Job.php
+
+		-
+			message: '#^Class Modules\\AuthFarmers\\Models\\User not found\.$#'
+			identifier: class.notFound
+			count: 2
+			path: Modules/JobsServices/src/Models/Job.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:getMediaModel\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/JobAnnouncement.php
+
+		-
+			message: '#^Method Modules\\JobsServices\\Models\\JobAnnouncement\:\:media\(\) should return App\\Support\\PostgresMorphMany\<Spatie\\MediaLibrary\\MediaCollections\\Models\\Media, \$this\(Modules\\JobsServices\\Models\\JobAnnouncement\)\> but returns App\\Support\\PostgresMorphMany\<Illuminate\\Database\\Eloquent\\Model, Illuminate\\Database\\Eloquent\\Model\>\.$#'
+			identifier: return.type
+			count: 1
+			path: Modules/JobsServices/src/Models/JobAnnouncement.php
+
+		-
+			message: '#^PHPDoc tag @var with type Illuminate\\Database\\Eloquent\\Model is not subtype of native type \$this\(Modules\\JobsServices\\Models\\JobAnnouncement\)\.$#'
+			identifier: varTag.nativeType
+			count: 1
+			path: Modules/JobsServices/src/Models/JobAnnouncement.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\JobApplication\:\:\$applicant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/JobApplication.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:applications\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/JobApplication.php
+
+		-
+			message: '#^Class Modules\\AuthFarmers\\Models\\User not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/JobApplication.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\JobMedia\:\:\$file_path\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/JobMedia.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Service\:\:\$currency\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/Service.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Service\:\:\$price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/Service.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Service\:\:\$price_unit\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/JobsServices/src/Models/Service.php
+
+		-
+			message: '#^Class Modules\\AuthFarmers\\Models\\User not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/Service.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\ServiceCategory\:\:\$icon\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/ServiceCategory.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:getMediaModel\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/ServiceCategory.php
+
+		-
+			message: '#^Method Modules\\JobsServices\\Models\\ServiceCategory\:\:media\(\) should return App\\Support\\PostgresMorphMany\<Spatie\\MediaLibrary\\MediaCollections\\Models\\Media, \$this\(Modules\\JobsServices\\Models\\ServiceCategory\)\> but returns App\\Support\\PostgresMorphMany\<Illuminate\\Database\\Eloquent\\Model, Illuminate\\Database\\Eloquent\\Model\>\.$#'
+			identifier: return.type
+			count: 1
+			path: Modules/JobsServices/src/Models/ServiceCategory.php
+
+		-
+			message: '#^PHPDoc tag @var with type Illuminate\\Database\\Eloquent\\Model is not subtype of native type \$this\(Modules\\JobsServices\\Models\\ServiceCategory\)\.$#'
+			identifier: varTag.nativeType
+			count: 1
+			path: Modules/JobsServices/src/Models/ServiceCategory.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\ServiceMedia\:\:\$file_path\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/ServiceMedia.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:getMediaModel\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Modules/JobsServices/src/Models/ServiceOffer.php
+
+		-
+			message: '#^Method Modules\\JobsServices\\Models\\ServiceOffer\:\:media\(\) should return App\\Support\\PostgresMorphMany\<Spatie\\MediaLibrary\\MediaCollections\\Models\\Media, \$this\(Modules\\JobsServices\\Models\\ServiceOffer\)\> but returns App\\Support\\PostgresMorphMany\<Illuminate\\Database\\Eloquent\\Model, Illuminate\\Database\\Eloquent\\Model\>\.$#'
+			identifier: return.type
+			count: 1
+			path: Modules/JobsServices/src/Models/ServiceOffer.php
+
+		-
+			message: '#^PHPDoc tag @var with type Illuminate\\Database\\Eloquent\\Model is not subtype of native type \$this\(Modules\\JobsServices\\Models\\ServiceOffer\)\.$#'
+			identifier: varTag.nativeType
+			count: 1
+			path: Modules/JobsServices/src/Models/ServiceOffer.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Job\:\:\$executor_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Services/JobService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Job\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 3
+			path: Modules/JobsServices/src/Services/JobService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Job\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: Modules/JobsServices/src/Services/JobService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Service\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Services/ServiceService.php
+
+		-
+			message: '#^Access to an undefined property Modules\\JobsServices\\Models\\Service\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: Modules/JobsServices/src/Services/ServiceService.php
+
+		-
+			message: '#^Called ''env'' outside of the config directory which returns null when the config is cached, use ''config''\.$#'
+			identifier: larastan.noEnvCallsOutsideOfConfig
+			count: 9
+			path: Modules/PlantScanner/Config/config.php
+
+		-
+			message: '#^Called ''env'' outside of the config directory which returns null when the config is cached, use ''config''\.$#'
+			identifier: larastan.noEnvCallsOutsideOfConfig
+			count: 3
+			path: Modules/Weather/Config/config.php
+
+		-
+			message: '#^Called ''env'' outside of the config directory which returns null when the config is cached, use ''config''\.$#'
+			identifier: larastan.noEnvCallsOutsideOfConfig
+			count: 8
+			path: packages/billing-client/config/billing-client.php
+
+		-
+			message: '#^Property Makhweb\\BillingClient\\DTO\\FloatFixerDTO\:\:\$roundingMode \(int\) does not accept string\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: packages/billing-client/src/DTO/FloatFixerDTO.php
+
+		-
+			message: '#^Property Makhweb\\BillingClient\\DTO\\RpcRequest\\CreatePaymentSystemRequestDTO\:\:\$billingOrganizationAlias \(string\) does not accept int\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: packages/billing-client/src/DTO/RpcRequest/CreatePaymentSystemRequestDTO.php
+
+		-
+			message: '#^Property Makhweb\\BillingClient\\DTO\\RpcRequest\\CreatePaymentSystemRequestDTO\:\:\$billingReflectionAlias \(string\) does not accept int\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: packages/billing-client/src/DTO/RpcRequest/CreatePaymentSystemRequestDTO.php
+
+		-
+			message: '#^Called ''env'' outside of the config directory which returns null when the config is cached, use ''config''\.$#'
+			identifier: larastan.noEnvCallsOutsideOfConfig
+			count: 4
+			path: packages/ufarm-billing-client/config/ufarm-billing-client.php
+
+		-
+			message: '#^Called ''env'' outside of the config directory which returns null when the config is cached, use ''config''\.$#'
+			identifier: larastan.noEnvCallsOutsideOfConfig
+			count: 2
+			path: packages/ufarm/premium/config/premium.php
+
+		-
+			message: '#^Call to static method query\(\) on an unknown class Xerxes\\AuthBridge\\Models\\Application\.$#'
+			identifier: class.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Middleware/EnsurePremiumSubscription.php
+
+		-
+			message: '#^Access to an undefined property Ufarm\\Premium\\Models\\PremiumPlan\:\:\$application_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Models/PremiumPlan.php
+
+		-
+			message: '#^Class Xerxes\\AuthBridge\\Models\\Application not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Models/PremiumPlan.php
+
+		-
+			message: '#^Access to an undefined property Ufarm\\Premium\\Models\\Subscription\:\:\$starts_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Models/Subscription.php
+
+		-
+			message: '#^Access to an undefined property Ufarm\\Premium\\Models\\Subscription\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 3
+			path: packages/ufarm/premium/src/Models/Subscription.php
+
+		-
+			message: '#^Class Modules\\Core\\app\\Models\\User not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Models/Subscription.php
+
+		-
+			message: '#^Class Xerxes\\AuthBridge\\Models\\Application not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Models/Subscription.php
+
+		-
+			message: '#^Access to an undefined property Ufarm\\Premium\\Models\\Subscription\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Observers/SubscriptionObserver.php
+
+		-
+			message: '#^Access to an undefined property UnitEnum\:\:\$value\.$#'
+			identifier: property.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Observers/SubscriptionObserver.php
+
+		-
+			message: '#^Access to an undefined property Ufarm\\Premium\\Models\\Subscription\:\:\$application_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Services/SubscriptionNotifier.php
+
+		-
+			message: '#^Access to an undefined property Ufarm\\Premium\\Models\\Subscription\:\:\$canceled_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Services/SubscriptionNotifier.php
+
+		-
+			message: '#^Access to an undefined property Ufarm\\Premium\\Models\\Subscription\:\:\$ends_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Services/SubscriptionNotifier.php
+
+		-
+			message: '#^Access to an undefined property Ufarm\\Premium\\Models\\Subscription\:\:\$renewed_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Services/SubscriptionNotifier.php
+
+		-
+			message: '#^Access to an undefined property Ufarm\\Premium\\Models\\Subscription\:\:\$starts_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Services/SubscriptionNotifier.php
+
+		-
+			message: '#^Access to an undefined property Ufarm\\Premium\\Models\\Subscription\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Services/SubscriptionNotifier.php
+
+		-
+			message: '#^Access to an undefined property Ufarm\\Premium\\Models\\Subscription\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Services/SubscriptionNotifier.php
+
+		-
+			message: '#^Access to property \$id on an unknown class Modules\\Core\\app\\Models\\User\.$#'
+			identifier: class.notFound
+			count: 2
+			path: packages/ufarm/premium/src/Support/PremiumAccess.php
+
+		-
+			message: '#^Parameter \$user of method Ufarm\\Premium\\Support\\PremiumAccess\:\:userHasActive\(\) has invalid type Modules\\Core\\app\\Models\\User\.$#'
+			identifier: class.notFound
+			count: 1
+			path: packages/ufarm/premium/src/Support/PremiumAccess.php

@@ -1,0 +1,30 @@
+{
+    "name": "ufarm/billing-client",
+    "description": "Database-driven payment validation for UFarm billing system",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Xerxes\\BillingClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "UFarm",
+            "email": "dev@ufarm.uz"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xerxes\\BillingClient\\UfarmBillingClientServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2|^8.3|^8.4",
+        "makhweb/billing-client": "*",
+        "illuminate/contracts": "^11.0|^12.0",
+        "illuminate/database": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0"
+    }
+}

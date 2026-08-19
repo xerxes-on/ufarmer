@@ -1,0 +1,11 @@
+{
+    "name": "modules/analysis",
+    "description": "Analysis module for admin panel",
+    "type": "laravel-module",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Modules\\Analysis\\": "src/"
+        }
+    }
+}

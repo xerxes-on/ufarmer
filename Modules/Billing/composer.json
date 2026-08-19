@@ -1,0 +1,22 @@
+{
+    "name": "modules/billing",
+    "description": "Billing module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Billing\\": "src/",
+            "Modules\\Billing\\Database\\Factories\\": "database/factories/",
+            "Modules\\Billing\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Billing\\Providers\\BillingServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Predictions",
+    "alias": "predictions",
+    "description": "Prediction analytics dashboard for yield forecasting",
+    "keywords": ["predictions", "analytics", "yield", "forecasting"],
+    "priority": 0,
+    "providers": [
+        "Modules\\Predictions\\Providers\\PredictionsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

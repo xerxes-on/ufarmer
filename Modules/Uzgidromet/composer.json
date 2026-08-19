@@ -1,0 +1,13 @@
+{
+    "name": "modules/uzgidromet",
+    "description": "Uzgidromet Filament module for UFarm Admin (resource + role-aware gates)",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Uzgidromet\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "modules/jobsservices",
+    "description": "JobsServices module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\JobsServices\\": "src/",
+            "Modules\\JobsServices\\Database\\Factories\\": "database/factories/",
+            "Modules\\JobsServices\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\JobsServices\\Providers\\JobsServicesServiceProvider"
+            ]
+        }
+    }
+}

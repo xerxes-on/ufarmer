@@ -1,0 +1,22 @@
+{
+    "name": "modules/harvest",
+    "description": "Harvest module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Harvest\\": "src/",
+            "Modules\\Harvest\\Database\\Factories\\": "database/factories/",
+            "Modules\\Harvest\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Harvest\\Providers\\HarvestServiceProvider"
+            ]
+        }
+    }
+}

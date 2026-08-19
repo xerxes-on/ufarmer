@@ -1,0 +1,17 @@
+stages:
+  - test
+
+trivy_sca_scan:
+  stage: test
+  tags:
+    - main
+  image:
+    name: aquasec/trivy:0.71.0
+    entrypoint: [""]
+  variables:
+    TRIVY_CACHE_DIR: "/cache/trivy"
+  script:
+    - trivy fs --exit-code 1 --severity HIGH,CRITICAL --scanners vuln .
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'

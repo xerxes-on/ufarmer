@@ -1,0 +1,22 @@
+{
+    "name": "modules/plantscanner",
+    "description": "PlantScanner module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PlantScanner\\": "src/",
+            "Modules\\PlantScanner\\Database\\Factories\\": "database/factories/",
+            "Modules\\PlantScanner\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\PlantScanner\\Providers\\PlantScannerServiceProvider"
+            ]
+        }
+    }
+}

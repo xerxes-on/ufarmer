@@ -1,0 +1,22 @@
+{
+    "name": "modules/weather",
+    "description": "Weather module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Weather\\": "src/",
+            "Modules\\Weather\\Database\\Factories\\": "database/factories/",
+            "Modules\\Weather\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Weather\\Providers\\WeatherServiceProvider"
+            ]
+        }
+    }
+}

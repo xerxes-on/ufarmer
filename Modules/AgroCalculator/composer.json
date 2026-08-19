@@ -1,0 +1,22 @@
+{
+    "name": "modules/agrocalculator",
+    "description": "AgroCalculator module for UFarm Admin",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AgroCalculator\\": "src/",
+            "Modules\\AgroCalculator\\Database\\Factories\\": "database/factories/",
+            "Modules\\AgroCalculator\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AgroCalculator\\Providers\\AgroCalculatorServiceProvider"
+            ]
+        }
+    }
+}
